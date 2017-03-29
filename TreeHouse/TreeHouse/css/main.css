@@ -36,35 +36,7 @@ img {
 
 
 
-/**********************************
-HEADING
-***********************************/
 
-header {
-  float: left;
-  margin: 0 0 30px 0;
-  padding: 5px 0 0 0;
-  width: 100%;
-}
-
-#logo {
-  text-align: center;
-  margin: 5px;
-}
-
-h1 {
-  font-family: 'Bookman Old Style', sans-serif;
-  margin: 15px 0;
-  font-size: 1.75em;
-  font-weight: normal;
-  line-height: 0.8em;
-  /* em's are a relative unit of mesurement, 1 em is == to the current font size */
-}
-h2 {
-  font-size: 0.75em;
-  margin: -5px 0 0;
-  font-weight: normal;
-}
 
 
 
@@ -199,11 +171,7 @@ body {
 }
 
 /* Green Header*/
-header {
-  background: #6ab47b;
-  background-color: 
-#2f6029;
-}
+
 
 /* nav background on moblie */
 nav {
@@ -244,6 +212,50 @@ a:hover {
 
 
 
+/**********************************
+HEADING
+***********************************/
 
+.main-header {
+  background-color: #ffa949;
+  height: 20%;
+  background-image: url('../Img/Masyuko-Lake-in-Hokkaido-Japan_Lake-view_4772.jpg');
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center;
+  float: left;
+  width: 100%;
+}
+
+#logo {
+  text-align: center;
+  margin: 5px;
+}
+
+h1 {
+  font-family: 'Bookman Old Style', sans-serif;
+  margin: 0;
+  padding-top: 5%;
+  font-size: 1.75em;
+  font-weight: normal;
+  line-height: 0.8em;
+  /* em's are a relative unit of mesurement, 1 em is == to the current font size */
+}
+h2 {
+  font-size: 0.75em;
+  padding-top: 10px;
+  font-weight: normal;
+}
+
+/*.mainback {
+  background-color: #ffa949;
+  height: 20%;
+background-image: url('../Img/background.jpg');
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center;
+  float: left;
+  width: 100%;
+}*/
 
 

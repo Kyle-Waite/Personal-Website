@@ -72,6 +72,7 @@
     <Content Include="css\normalize.css" />
     <Content Include="css\responsive.css" />
     <Content Include="Img\alphas %282%29.jpg" />
+    <Content Include="Img\background.jpg" />
     <Content Include="Img\chang.jpg" />
     <Content Include="Img\codecademy.png" />
     <Content Include="Img\DevU.png" />

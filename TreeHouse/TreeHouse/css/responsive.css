@@ -14,6 +14,16 @@
     float: right;
   }
 
+   #primaryA {
+    margin-top: 5%;
+    width: 30%;
+    float: left;
+  }
+
+  #secondaryA {
+    width: 70%;
+    float: right;
+  }
 
 
   /**********************************
@@ -32,11 +42,6 @@
   /**********************************
   PAGE: ABOUT
   ***********************************/
-
-  .profile-photo {
-    float: left;
-   margin: 0 5% 80px 0;
-  }
 
 }
 
@@ -71,7 +76,7 @@
     }
 
     header {
-      border-bottom: 5px solid #2a9815;
+      border-bottom: 5px solid #3393ff;
       margin-bottom: 60px;
     }
 
