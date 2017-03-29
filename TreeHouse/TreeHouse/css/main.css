@@ -179,8 +179,14 @@ nav {
 }
 
 /* Logo Text */
-h1,h2 {
+.head1 {
+  color: #FF8300;
+  text-decoration: underline;
+}
+
+h2 {
   color: #fff;
+  
 }
 
 /* Links */
@@ -191,11 +197,12 @@ a {
 /* nav link*/
 nav a, nav a:visited {
   color: #fff;
+  font-size: 1.25em;
 }
 
 /* selected nav link*/
 nav a.selected, nav a:hover {
-  color: #52bf90;
+  color: #00FE7E;
 }
 
 a:active {
@@ -247,7 +254,7 @@ h2 {
 }
 
 .head2 {
-  font-size: 1.25em;
+  font-size: 1.5em;
 }
 
 
