@@ -247,6 +247,11 @@ h2 {
   font-weight: normal;
 }
 
+.head2 {
+  font-size: 1.25em;
+}
+
+
 /*.mainback {
   background-color: #ffa949;
   height: 20%;
