@@ -73,6 +73,7 @@
     <Content Include="css\responsive.css" />
     <Content Include="Img\alphas %282%29.jpg" />
     <Content Include="Img\background.jpg" />
+    <Content Include="Img\beach.jpg" />
     <Content Include="Img\chang.jpg" />
     <Content Include="Img\codecademy.png" />
     <Content Include="Img\DevU.png" />
@@ -88,8 +89,6 @@
     <Content Include="Img\linkedIn-wrap.png" />
     <Content Include="Img\linkedin_circle_gray-256.png" />
     <Content Include="Img\mail.png" />
-    <Content Include="Img\mashi.jpg" />
-    <Content Include="Img\Masyuko-Lake-in-Hokkaido-Japan_Lake-view_4772.jpg" />
     <Content Include="Img\MDN.jpg" />
     <Content Include="Img\numbers-01.jpg" />
     <Content Include="Img\numbers-02.jpg" />

@@ -217,9 +217,8 @@ HEADING
 ***********************************/
 
 .main-header {
-  background-color: #ffa949;
   height: 20%;
-  background-image: url('../Img/mashi.jpg');
+  background-image: url('../Img/beach.jpg');
   background-size: cover;
   background-repeat:no-repeat;
   background-position: center;
