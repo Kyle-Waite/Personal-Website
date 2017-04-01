@@ -1,0 +1,92 @@
+﻿/* =============================================================================
+  RESETS
+============================================================================= */
+html,
+body,
+div,
+h1,
+p,
+a,
+video {
+  margin: 0;
+  padding: 0;
+}
+
+/* =============================================================================
+  HTML, BODY 
+============================================================================= */
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Oxygen", sans-serif;
+  line-height: 1.5;
+}
+  .main-headerE {
+  text-align: center;
+}
+
+/* =============================================================================
+  CONTENT
+============================================================================= */
+.content {
+  position: relative;
+  top: 30%;
+  z-index: 2;
+  margin: 0 auto;
+  max-width: 720px;
+  text-align: center;
+}
+
+.content__heading {
+  margin-bottom: 24px;
+  color: #272727;
+  font-size: 44px;
+   text-shadow: 0 1px 1px rgba(0,0,0,.8);
+}
+
+.content__teaser {
+  margin-bottom: 28px;
+  color: #272727;
+  font-size: 28px;
+  text-shadow: 0 1px 1px rgba(0,0,0,.8);
+
+}
+
+.enter {
+  display: inline-block;
+  margin: 0;
+  padding: 12px 48px;
+  color: #009900;
+  font-size: 22px;
+  text-decoration: none;
+  border: solid 4px #009900;
+  background: -webkit-radial-gradient( #FCF5EB, transparent); 
+  background: -o-repeating-linear-gradient( #FCF5EB, transparent); 
+  background: -moz-radial-gradient(#FCF5EB, transparent); 
+  background: radial-gradient( #FCF5EB, transparent);
+  border-radius: 10px;
+  text-shadow: 0 1px 1px rgba(0,0,0,.8);
+}
+
+
+/* =============================================================================
+  VIDEO
+============================================================================= */
+.video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+          background-size: cover; 
+}

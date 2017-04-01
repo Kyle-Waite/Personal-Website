@@ -1,0 +1,20 @@
+c:\users\kyle waite\documents\visual studio 2015\Projects\Test Site\Test Site\bin\roslyn\csc.exe
+c:\users\kyle waite\documents\visual studio 2015\Projects\Test Site\Test Site\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\kyle waite\documents\visual studio 2015\Projects\Test Site\Test Site\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\kyle waite\documents\visual studio 2015\Projects\Test Site\Test Site\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\kyle waite\documents\visual studio 2015\Projects\Test Site\Test Site\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\kyle waite\documents\visual studio 2015\Projects\Test Site\Test Site\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\kyle waite\documents\visual studio 2015\Projects\Test Site\Test Site\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\kyle waite\documents\visual studio 2015\Projects\Test Site\Test Site\bin\roslyn\System.Collections.Immutable.dll
+c:\users\kyle waite\documents\visual studio 2015\Projects\Test Site\Test Site\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\kyle waite\documents\visual studio 2015\Projects\Test Site\Test Site\bin\roslyn\vbc.exe
+c:\users\kyle waite\documents\visual studio 2015\Projects\Test Site\Test Site\bin\roslyn\VBCSCompiler.exe
+c:\users\kyle waite\documents\visual studio 2015\Projects\Test Site\Test Site\bin\roslyn\VBCSCompiler.exe.config
+c:\users\kyle waite\documents\visual studio 2015\Projects\Test Site\Test Site\bin\Test Site.dll.config
+c:\users\kyle waite\documents\visual studio 2015\Projects\Test Site\Test Site\bin\Test Site.dll
+c:\users\kyle waite\documents\visual studio 2015\Projects\Test Site\Test Site\bin\Test Site.pdb
+c:\users\kyle waite\documents\visual studio 2015\Projects\Test Site\Test Site\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\kyle waite\documents\visual studio 2015\Projects\Test Site\Test Site\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\kyle waite\documents\visual studio 2015\Projects\Test Site\Test Site\obj\Debug\Test Site.csprojResolveAssemblyReference.cache
+c:\users\kyle waite\documents\visual studio 2015\Projects\Test Site\Test Site\obj\Debug\Test Site.dll
+c:\users\kyle waite\documents\visual studio 2015\Projects\Test Site\Test Site\obj\Debug\Test Site.pdb

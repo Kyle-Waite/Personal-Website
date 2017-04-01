@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <title>Kyle Waite | Portfolio</title>
+  <link rel="stylesheet" href="css/enter.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oxygen:400,300,700">
+  <meta name="viewport" content="width=device-width">
+</head>
+<body>
+  <div class="content">
+    <header class="main-headerE">
+      <h1 class="content__heading">Kyle Waite</h1>
+      <p class="content__teaser">This is a website that will display a brief portfolio of my development abilities and briefly about myself.</p>
+      <a href="index.html" class="enter">ENTER</a>
+    </header>
+    </div>
+
+    <video id="my-video" class="video" muted loop>
+      <source src="Media/lotus.mp4" type="video/mp4">
+    </video><!-- /video -->
+    <script>
+      (function () {
+        /**
+         * Video element
+         * @type {HTMLElement}
+         */
+        var video = document.getElementById("my-video");
+
+        /**
+         * Check if video can play, and play it
+         */
+        video.addEventListener("canplay", function () {
+          video.play();
+        });
+      })();
+    </script>
+    <footer>
+      <a href="https://twitter.com/home?status=http%3A//kyle-eric-waite.azurewebsites.net/"><img src="img/twitter_circle_color-64.png" alt="Twitter Logo"></a>
+      <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//kyle-eric-waite.azurewebsites.net/"><img src="img/facebook_circle_color-64.png" alt="Facebook Logo"></a>
+      <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A//kyle-eric-waite.azurewebsites.net/&title=&summary=&source="><img src="img/linkedin_circle_color-64.png" alt="LinkedIn Logo"></a>
+      <a href="https://github.com/Kyle-Waite/"><img src="img/github-64.png" alt="GitHub Logo"></a>
+      <a href="https://plus.google.com/share?url=http%3A//kyle-eric-waite.azurewebsites.net/"><img src="img/google_circle_color-64.png" alt="Google Logo"></a>
+    </footer>
+</body>
+</html>
