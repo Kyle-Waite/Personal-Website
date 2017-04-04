@@ -1,36 +1,70 @@
 ﻿<!DOCTYPE html>
 <html>
-<head>
-  <title>Kyle Waite | Portfolio</title>
-  <link rel="stylesheet" href="css/enter.css">
-  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oxygen:400,300,700">
-  <meta name="viewport" content="width=device-width">
-</head>
-<body>
-  <div class="content">
-      <h1 class="content__heading">Kyle Waite</h1>
-      <p class="content__teaser">This is a website that will display a brief portfolio of my development abilities and briefly about myself.</p>
-      <a href="index.html" class="enter">ENTER</a>
-    </div>
+  <head>
+    <title>Kyle Waite | Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width">
+  </head>
+  <body> 
+    <header id="top" class="main-header">
+      <span class="title">Software Devloper</span>
+      <h1 class="index-h1"><a href="index.html">Kyle Waite</a></h1>
+      <img class="arrow" src="img/arrow.svg" alt="Down arrow">
+      <nav class="info-bar">
+        <ul>
+          <li class="enter"><a href="enter.html">Home</a></li>
+          <li class="enter"><a href="contact.html">Contact</a></li>
+          <li class="enter"><a href="projects.html">Projects</a></li>
+          <li class="enter"><a href="resources.html">Resources</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+		<div class="primary-content t-border">
+			<p class="intro">
+        Hi, I'm Kyle this is my design portfolio where I share all my favorite work and hobbies. I am a transitioning military veteran with a passion for Web Application Development. I am looking for a company where I will be able to demonstrate my proven ability to support clients, hone my IT software development skills and serve as an active contributor in a team environment.
+			</p>
+			<a class="callout" href="projects.html">See my Projects</a>
+      
+      <div class="index-travel">
+        <h2>Traveling the World</h2>
+        <p>
+          I've travelled all over the world with the United States Marines Corps assisting in disaster relief efforts and providing humanitarian aid.
+        </p>
+      </div>
+      
+      <a class="callout" href="contact.html">Contact Info</a>
+		</div><!-- End .primary-content -->
 
-    <video id="my-video" class="video" muted loop>
-      <source src="Media/water.mp4" type="video/mp4">
-    </video><!-- /video -->
-    <script>
-      (function () {
-        /**
-         * Video element
-         * @type {HTMLElement}
-         */
-        var video = document.getElementById("my-video");
+		<div class="secondary-content t-border group"> 
+      <div class="family">
+        <img src="img/fam.jpg" alt="Family">
+        <h3>See the Family</h3>
+        <p>
+          My family is continuously sending me good vibes and support and it was always special when a care package would make its way to me and the boys. Who knew mom's cookies could taste so good. 
+        </p>
+      </div>
+      
+      <div class="alphas">
+        <img src="img/alphas (2).jpg" alt="Dress uniforms">
+        <h3>Dressing Up</h3>
+        <p>
+          We aren't always climbing up mountains and swimming through rivers in the Marines. There are a few cherished days when we look our best. One such day is the Marine Corps Ball.
+        </p>
+      </div>
+		</div><!-- End .secondary-content -->
+    
+		<footer class="main-footer">
+      <a href="https://twitter.com/home?status=http%3A//kyle-eric-waite.azurewebsites.net/"><img src="img/twitter_circle_color-64.png" alt="Twitter Logo" class="social-icon"></a>
+      <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//kyle-eric-waite.azurewebsites.net/"><img src="img/facebook_circle_color-64.png" alt="Facebook Logo" class="social-icon"></a>
+      <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A//kyle-eric-waite.azurewebsites.net/&title=&summary=&source="><img src="img/linkedin_circle_color-64.png" alt="LinkedIn Logo" class="social-icon"></a>
+      <a href="https://github.com/Kyle-Waite/"><img src="img/github-64.png" alt="GitHub Logo" class="social-icon"></a>
+      <a href="https://plus.google.com/share?url=http%3A//kyle-eric-waite.azurewebsites.net/"><img src="img/google_circle_color-64.png" alt="Google Logo" class="social-icon"></a>
+      <!--Ampersand & -->
+      <p>&copy; 2017 Kyle Waite.</p>
+			<a href="#top">Back to top &raquo;</a>
+		</footer>
 
-        /**
-         * Check if video can play, and play it
-         */
-        video.addEventListener("canplay", function () {
-          video.play();
-        });
-      })();
-    </script>
-</body>
+
+  </body>
 </html>

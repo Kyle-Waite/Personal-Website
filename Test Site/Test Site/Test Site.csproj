@@ -71,7 +71,7 @@
     <Content Include="css\enter.css" />
     <Content Include="css\projects.css" />
     <Content Include="css\resource.css" />
-    <Content Include="enter.html" />
+    <Content Include="index.html" />
     <Content Include="img\code.png" />
     <Content Include="img\javascript.png" />
     <Content Include="img\profilePic.jpg" />
@@ -113,7 +113,7 @@
     <Content Include="css\style.css" />
     <Content Include="img\japan.jpg" />
     <Content Include="img\Yosemite-National-Park.jpg" />
-    <Content Include="index.html" />
+    <Content Include="enter.html" />
     <Content Include="projects.html" />
     <Content Include="resources.html" />
     <Content Include="Web.config" />
