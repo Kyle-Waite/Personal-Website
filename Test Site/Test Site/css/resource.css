@@ -91,6 +91,18 @@ a:active {
   color: lightcoral;
 }
 
+li a:visited {
+  color: white;
+}
+
+li a:hover {
+  color: darkblue;
+}
+
+li a:active {
+  color: darkblue;
+}
+
 .resource-h1 a:link {
   color: #fff;
   text-decoration: none;
@@ -143,17 +155,17 @@ nav {
 nav li {
     display: inline-block;
     margin: 5px 5px;
-    background: -webkit-radial-gradient( #FCF5EB, transparent); 
+    background: -webkit-radial-gradient( #00bfff, transparent); 
     background: -o-repeating-linear-gradient( #FCF5EB, transparent); 
-    background: -moz-radial-gradient(#FCF5EB, transparent); 
-    background: radial-gradient( #FCF5EB, transparent);
+    background: -moz-radial-gradient(#00bfff, transparent); 
+    background: radial-gradient( #00bfff, transparent);
     border-radius: 10px;
     font-family: 'Bookman Old Style', Helvetica, Arial, sans-serif;
     padding: 5px 10px;
     font-size: 16px;
     text-decoration: none;
-    border: solid 3px #009900;
-    text-shadow: 0 1px 1px rgba(0,0,0,.8);
+    border: solid 3px white;
+    text-shadow: 0 2px 2px rgba(0,0,0,.8);
 }
 
 .primary-content

@@ -40,16 +40,17 @@ body {
 
 .content__heading {
   margin-bottom: 24px;
-  color: #272727;
+  color: white;
   font-size: 44px;
-   text-shadow: 0 1px 1px rgba(0,0,0,.8);
+   text-shadow: 0 5px 5px rgba(0,0,0,.8);
 }
 
 .content__teaser {
   margin-bottom: 28px;
-  color: #272727;
+  color: white;
   font-size: 28px;
-  text-shadow: 0 1px 1px rgba(0,0,0,.8);
+  font-weight:800;
+  text-shadow: 0 3px 3px rgba(0,0,0,.8);
 
 }
 
@@ -57,23 +58,23 @@ body {
   display: inline-block;
   margin: 0;
   padding: 12px 48px;
-  color: #009900;
+  color: white;
   font-size: 22px;
   text-decoration: none;
-  border: solid 4px #009900;
-  background: -webkit-radial-gradient( #FCF5EB, transparent); 
-  background: -o-repeating-linear-gradient( #FCF5EB, transparent); 
-  background: -moz-radial-gradient(#FCF5EB, transparent); 
-  background: radial-gradient( #FCF5EB, transparent);
+  border: solid 4px white;
+  background: -webkit-radial-gradient( #00bfff, transparent); 
+  background: -o-repeating-linear-gradient( #00bfff, transparent); 
+  background: -moz-radial-gradient(#00bfff, transparent); 
+  background: radial-gradient( #00bfff, transparent);
   border-radius: 10px;
-  text-shadow: 0 1px 1px rgba(0,0,0,.8);
+  text-shadow: 0 2px 2px rgba(0,0,0,.8);
 }
 
 
 /* =============================================================================
   VIDEO
 ============================================================================= */
-.video {
+.backIndex {
   position: fixed;
   top: 50%;
   left: 50%;
@@ -86,4 +87,9 @@ body {
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
           background-size: cover; 
+          background-image: url("../img/blueRocks.JPG");
+}
+
+div a #selected, div a:hover {
+  color: Highlight;
 }
