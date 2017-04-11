@@ -73,6 +73,8 @@
     <Content Include="css\resource.css" />
     <Content Include="img\blueRocks.JPG" />
     <Content Include="img\chill.jpg" />
+    <Content Include="img\dress.jpg" />
+    <Content Include="img\Forest_Back.jpg" />
     <Content Include="index.html" />
     <Content Include="img\code.png" />
     <Content Include="img\javascript.png" />
